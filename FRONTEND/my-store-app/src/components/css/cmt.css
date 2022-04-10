@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+.comment-box {
+  display: block;
+  margin-bottom: 64px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.title {
+  padding-bottom: 4px;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-left: 1px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 26px;
+}
+
+.comment-btn {
+  text-align: right;
+  padding: 10px;
+}
+
+.comment-box input[type="submit"] {
+  display: inline-block;
+  border: none;
+  padding: 8px 34px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.comment-box textarea {
+  width: 100%;
+  height: 131px;
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.01);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.comment-box textarea:focus {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.01) !important;
+}
+
+.seperator {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.render-cmts {
+  padding-top: 36px;
+}
+
+.render-cmts .cmt {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.cmt .author img {
+  width: 27px;
+  margin-right: 5px;
+}
+
+.cmt .author span {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.cmt .content {
+  background: #fff;
+  min-height: 140px;
+  margin-top: 18px;
+  padding: 12px;
+  border-radius: 1px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.06);
+  color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+.cmt .content::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 14px solid #fff;
+  top: -12px;
+  left: 14px;
+}
+
+.cmt .time {
+  font-size: 13px;
+  padding-top: 7px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/*=== Pagination ====*/
+.comment-sec .pagination {
+  text-align: right;
+}
+
+.comment-sec .pagination ul {
+  list-style: none;
+}
+
+.comment-sec .pagination li {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.comment-sec .pagination a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.03);
+  border-right: 1px solid rgba(126, 116, 116, 0.09);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.comment-sec .pagination li.active a {
+  background: #f8f8f8;
+}
+
+.comment-sec .pagination a:hover {
+  background: #f9f9f9;
+}
+
+.comment-sec .pagination li:first-child a,
+.comment-sec .pagination li:last-child a {
+  width: 70px;
+}
+
+.comment-sec .pagination ul > li:last-child {
+  border: none;
+}

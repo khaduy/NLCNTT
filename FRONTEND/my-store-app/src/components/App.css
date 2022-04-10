@@ -1,0 +1,374 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0f0f0;
+  /* width: 1500px; */
+  margin: 0 10px;
+  font-family: inherit;
+}
+.container {
+  padding: 0px;
+}
+ol,
+ul,
+p {
+  margin: 0;
+  list-style: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* ++++++++++++++++++++ HEADER ++++++++++++++++++++ */
+/*header mid*/
+#header {
+  background-color: #7f7f7f;
+  padding: 25px 0px;
+}
+#header .col-md-4 img {
+  width: 300px;
+  height: 86px;
+  margin: -5px 0 0 -50px;
+}
+#header .col-md-4 img:hover {
+  opacity: 0.7;
+}
+/*header left*/
+#header .col-md-5 {
+  padding: 10px 50px 0px 0px;
+}
+#header form {
+  padding: 0px;
+}
+#header .form-control,
+button {
+  border: 0px;
+  /*outline: 0px;*/
+  /*border-radius: 0px;*/
+  box-shadow: none;
+  padding: 0px 2px 0px 10px;
+}
+#header .form-group {
+  background-color: #ffffff;
+  border: 1px solid #999999;
+}
+#header .btn-default {
+  border: none;
+  outline: 0;
+  box-shadow: none;
+  background: none;
+}
+#header .btn-default:hover i {
+  color: #999999;
+}
+#header input {
+  padding-left: 10px;
+  padding-right: 0px;
+  font-size: 12px;
+}
+/*header right*/
+#header .col-md-3 {
+  padding: 5px 0px 0px 43px;
+  line-height: 1.2;
+}
+#header .col-md-3 p {
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
+  color: #000;
+}
+#header .col-md-3 a {
+  padding: 22px 0px 22px 27px;
+  margin: 0px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+#header a:hover {
+  color: #bf0000;
+}
+#header .phone {
+  font-weight: 700;
+  font-size: 21px;
+}
+#header .col-md-3 i {
+  color: #7f0000;
+  font-size: 50px;
+  padding: 3px 0px 0px 63px;
+}
+/* ++++++++++++++++++++ END HEADER ++++++++++++++++++++ */
+
+/* ++++++++++++++++++++ NAV ++++++++++++++++++++ */
+#menunav {
+  background-color: #444;
+  min-height: 40px;
+  margin-top: -15px;
+}
+.menu-main li {
+  float: left;
+}
+.menu-main > li > a,
+.home a {
+  color: white;
+  font-weight: bold;
+  background: #444;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-right: 1px solid #555;
+}
+/* .menu-main > li > a:first-child { */
+/*  border-left: 1px solid #555;*/
+/* } */
+.menu-main > li > a {
+  padding: 13px;
+}
+.menu-main li a:hover {
+  background: #666;
+}
+/*hang dien thoai*/
+/*.dropdown
+{
+  float: left;
+}*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /*background-color: #f9f9f9;*/
+  /*padding: 0px 12px 0px 12px;*/
+  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+  z-index: 1;
+}
+.dropdown-content > a {
+  padding: 0px 50px 0px 13px;
+  /*text-decoration: none;*/
+  display: block;
+  color: white;
+  font-weight: bold;
+  background: #444;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-top: 1px solid #555;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*.dropdown:hover .dropbtn {
+  background-color: #666;
+}*/
+button.dropbtn {
+  color: white;
+  font-weight: bold;
+  background: #444;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-right: 1px solid #555;
+  padding: 0px 12px 0px 12px;
+}
+button.dropbtn:hover {
+  background: #666;
+}
+.home a {
+  background: #666;
+  padding: 13px;
+  margin-left: -50px;
+}
+#dndk {
+  margin-right: -45px;
+}
+#dndk li a {
+  color: white;
+  font-weight: bold;
+  background-color: #7f0000;
+  max-height: 40px;
+  line-height: 40px;
+  /* text-transform: uppercase;*/
+  font-size: 12px;
+  padding: 13px 25px 13px 25px;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  border-radius: 10px;
+}
+#dndk li a:hover {
+  background: #bf0000;
+}
+/*#dndk li a:last-child{
+  border-left: 1px black solid; 
+  margin-right: auto;    
+}*/
+#dndk1 {
+  margin: 0px;
+}
+/* ++++++++++++++++++++ END NAV ++++++++++++++++++++ */
+
+/* ++++++++++++++++++++ BANNER ++++++++++++++++++++ */
+.banner {
+  margin: 0 auto;
+  padding-top: 30px;
+  width: 73.20644%;
+  padding-bottom: 30px;
+}
+.banner img {
+  width: 73.20644%;
+  min-height: 290px;
+}
+/* ++++++++++++++++++++ END BANNER ++++++++++++++++++++ */
+
+/* ++++++++++++++++++++ DANG NHAP | DANG KY ++++++++++++++++++++ */
+.height {
+  height: 383.4px;
+  position: relative;
+}
+.loginout {
+  border: 1px solid black;
+  margin: 0px auto;
+  width: 700px;
+  font-size: 17px;
+}
+.loginout h1 {
+  text-align: center;
+}
+.loginout p {
+  margin: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+.loginout td,
+th {
+  padding: 5px;
+}
+.loginout .thongtin table {
+  border-spacing: 10px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+.tabledndk {
+  border-collapse: none;
+  width: auto;
+  border: 1px;
+  background-image: none;
+}
+
+/* ++++++++++++++++++++ END DANG NHAP | DANG KY ++++++++++++++++++++ */
+
+/* ++++++++++++++++++++ PRODUCTS ++++++++++++++++++++ */
+
+.h-100 {
+  background-color: #f0f0f0;
+}
+.card-img-top {
+  max-width: 75%;
+  height: auto;
+  display: block;
+  margin-top: 2ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-body {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.card-body > h4 {
+  color: #333333;
+  font-size: 18px;
+  font-weight: bold;
+}
+.card-body > h4:hover {
+  color: #288ad6;
+}
+.card-body > h5 {
+  color: #bf081f;
+  font-size: 18px;
+  font-weight: 700;
+}
+.card-body > h5:hover {
+  color: #e74847;
+  font-weight: 700;
+}
+/* ++++++++++++++++++++ FOTTER ++++++++++++++++++++ */
+
+.footer {
+  border-top: 1px black solid;
+  margin: 30px 0 10px 0;
+  display: flex;
+}
+.contact {
+  width: 400px;
+  margin: 0 50px;
+}
+.contact p {
+  font-size: 15px;
+  margin: 15px 5px;
+}
+.contact a:hover {
+  color: #7f003f;
+}
+.follow {
+  margin-top: 0px;
+  margin-left: 40px;
+  width: 400px;
+}
+.follow #trai {
+  margin-left: 10px;
+  width: 85px;
+}
+.follow #phai {
+  width: 80px;
+  margin: 0 10px;
+}
+/*=== Pagination ====*/
+.pagination1 {
+  text-align: center;
+  
+}
+
+.pagination1 ul {
+  list-style: none;
+  
+}
+
+.pagination1 li {
+  display: inline-block;
+  cursor: pointer;
+  
+}
+
+.pagination1 a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #fff;
+  /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.03); */
+  border: 1px solid #ddd;
+  cursor: pointer;
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.pagination1 li.active a {
+  background-color: #eee;
+  color: #23527c;
+}
+
+.pagination1 a:hover {
+  background-color: #eee;
+}
+.pagination1 li:first-child a,
+.pagination1 li:last-child a {
+  width: 70px;
+}
+.pagination1 ul > li:last-child {
+  border: none;
+}
